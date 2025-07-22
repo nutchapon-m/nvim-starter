@@ -798,6 +798,7 @@ require('lazy').setup({
         pylsp = require 'custom.lsp.pylsp',
         jedi_language_server = require 'custom.lsp.jedi_ls',
         html = require 'custom.lsp.html',
+        denols = require 'custom.lsp.denols',
         lua_ls = require 'custom.lsp.lua_ls',
       }
 
