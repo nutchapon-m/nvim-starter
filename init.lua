@@ -333,6 +333,10 @@ vim.api.nvim_create_autocmd('BufWritePre', {
   end,
 })
 
+vim.g.markdown_fenced_languages = {
+  'ts=typescript',
+}
+
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
@@ -838,7 +842,11 @@ require('lazy').setup({
           exclude = {
             'vtsls',
             'pyright',
+            'ruff',
             'pylsp',
+            'denols',
+            'emmet_language_server',
+            'emmet_ls',
           },
         },
         handlers = {
