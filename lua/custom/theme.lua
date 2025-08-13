@@ -12,6 +12,7 @@ return {
     ---@diagnostic disable-next-line: missing-fields
     -- Tokyonight Theme
     require('tokyonight').setup {
+      transparent = true,
       styles = {
         comments = { italic = false }, -- Disable italics in comments
       },
