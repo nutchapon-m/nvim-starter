@@ -842,7 +842,7 @@ require('lazy').setup({
           exclude = {
             'vtsls',
             'pyright',
-            'ruff',
+            -- 'ruff',
             'pylsp',
             'denols',
             'emmet_language_server',
